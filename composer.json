@@ -1,0 +1,22 @@
+{
+  "name": "inboundasia/ranking",
+  "type": "library",
+  "description":"Ranking API wrapper",
+  "authors": [
+    {
+      "name": "Roli",
+      "email": "roli.chung@inboundmarketing.com.tw"
+    }
+  ],
+  "require": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "InboundAsia\\Ranking\\": "src/"
+    }
+  },
+  "require-dev": {
+    "vlucas/phpdotenv": "^3.4"
+  }
+}
